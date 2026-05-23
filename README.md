@@ -39,5 +39,6 @@ Then press `<leader>da` to activate.
       keymaps = true,
     })
   end,
-},```
+},
+```
 
