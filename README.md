@@ -42,3 +42,16 @@ Then press `<leader>da` to activate.
 },
 ```
 
+### vim.pack (built-in, Neovim 0.12+)
+
+```lua
+vim.pack.add({
+  { src = "https://github.com/pasteyourpayloadhere/dualview" },
+})
+
+require("dualview").setup({
+  leader  = "<leader>",
+  keymaps = true,
+})
+```
+
