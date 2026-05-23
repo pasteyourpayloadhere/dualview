@@ -1,12 +1,12 @@
-# dualview.nvim
+### dualview.nvim
 
 A minimal Neovim plugin that splits the screen horizontally and displays two buffers centered in each split, with a zen-style stripped UI.
 
 Designed for use with `nvim -p file_one file_two`, with built-in support for iterating through `_vuln` / `_mitigated` file pairs in a directory.
 
-<img src="https://autcsi.nz/web-security-workshop/nvim-dualview.gif" width="300" />
+<img src="https://autcsi.nz/web-security-workshop/nvim-plugin-dualview.gif" width="840" />
 
-## Motions
+### Motions
 
 
 | Key | Action |
@@ -26,7 +26,7 @@ nvim -p file_one.py file_two.py
 
 Then press `<leader>da` to activate.
 
-## Installation
+### Installation
 
 ### lazy.nvim
 
